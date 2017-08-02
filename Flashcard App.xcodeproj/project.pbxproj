@@ -12,6 +12,7 @@
 		94AC06D11F3233B800E0E0BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94AC06CF1F3233B800E0E0BD /* Main.storyboard */; };
 		94AC06D31F3233B800E0E0BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94AC06D21F3233B800E0E0BD /* Assets.xcassets */; };
 		94AC06D61F3233B800E0E0BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94AC06D41F3233B800E0E0BD /* LaunchScreen.storyboard */; };
+		94AC06DE1F323D7200E0E0BD /* Flashcards App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC06DD1F323D7200E0E0BD /* Flashcards App.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		94AC06D21F3233B800E0E0BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94AC06D51F3233B800E0E0BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94AC06D71F3233B800E0E0BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94AC06DD1F323D7200E0E0BD /* Flashcards App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Flashcards App.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				94AC06CB1F3233B800E0E0BD /* AppDelegate.swift */,
 				94AC06CD1F3233B800E0E0BD /* ViewController.swift */,
 				94AC06CF1F3233B800E0E0BD /* Main.storyboard */,
+				94AC06DD1F323D7200E0E0BD /* Flashcards App.swift */,
 				94AC06D21F3233B800E0E0BD /* Assets.xcassets */,
 				94AC06D41F3233B800E0E0BD /* LaunchScreen.storyboard */,
 				94AC06D71F3233B800E0E0BD /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94AC06CE1F3233B800E0E0BD /* ViewController.swift in Sources */,
+				94AC06DE1F323D7200E0E0BD /* Flashcards App.swift in Sources */,
 				94AC06CC1F3233B800E0E0BD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
