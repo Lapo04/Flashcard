@@ -31,7 +31,8 @@ class CardCollection {
     }
     
     private init() {
-        cards = [Flashcard(question: "Test Question", options: ["True", "False"])]
+        cards = [Flashcard(question: "Test Question", options: ["True", "False"]),
+                 Flashcard(question: "What is my name", options: ["Lapo", "NootNoot"])]
     
         currentIndex = 0;
     }
@@ -39,7 +40,7 @@ class CardCollection {
     public func nextQuestion() {
         currentIndex += 1
         if (currentIndex >= cards.count) {
-            
+            currentIndex = 0
         }
     }
     
